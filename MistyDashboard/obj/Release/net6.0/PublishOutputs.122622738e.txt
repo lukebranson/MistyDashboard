@@ -1,0 +1,7 @@
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.exe
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.dll
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.deps.json
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.runtimeconfig.json
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.pdb
