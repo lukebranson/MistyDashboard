@@ -12,10 +12,10 @@
     <div class="page-container">
         <div class="sidenav">
           <a runat="server" href="~/" class="header">MISTY DASHBOARD</a>
-          <a runat="server" href="~/Dashboard/Agents">AGENTS</a>
-          <a runat="server" href="~/Dashboard/Tasks">TASKS</a>
-          <a runat="server" href="~/Dashboard/Settings">SETTINGS</a>
-          <a runat="server" href="~/Dashboard/About">ABOUT</a>
+          <a runat="server" href="~/Dashboard/Agents" class="@((string)ViewData["Title"]=="Agents" ? "navlink-active" : "")">AGENTS</a>
+          <a runat="server" href="~/Dashboard/Tasks" class="@((string)ViewData["Title"]=="Tasks" ? "navlink-active" : "")">TASKS</a>
+          <a runat="server" href="~/Dashboard/Settings" class="@((string)ViewData["Title"]=="Settings" ? "navlink-active" : "")">SETTINGS</a>
+          <a runat="server" href="~/Dashboard/About" class="@((string)ViewData["Title"]=="About" ? "navlink-active" : "")">ABOUT</a>
         </div>
 
         <!-- Page content -->

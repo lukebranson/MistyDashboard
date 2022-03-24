@@ -34,7 +34,7 @@ html {
         text-decoration: none;
         font-family: Impact;
         font-size: 25px;
-        color: #f1f1f1;
+        color: #90c0e0;
         display: block;
     }
 
@@ -53,10 +53,52 @@ html {
             color: #f1f1f1;
         }
 
+    .navlink-active {
+        color: #f1f1f1!important;
+    }
+
+.connected-bot-table {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    width:100%;
+}
+
+.connected-bot-info {
+    padding: 15px;
+}
+
+.bot-info-section{
+    font-weight:bold;
+
+}
+
+.bot-controls{
+    display:flex;
+    justify-content:right;
+    align-items:center;
+    height:100%;
+}
+
+.remove-bot-icon{
+    height:10px;
+    width:auto;
+    object-fit:contain;
+    margin-right:15px;
+    cursor:pointer;
+}
+
+.agents-controls{
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+}
+
 /* Style page content */
 .page-content {
-    background-color: #ffffff;
+    background-color: #eee;
     flex-grow:1;
+    padding:50px;
 }
 
     .page-content text {

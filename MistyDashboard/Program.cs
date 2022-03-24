@@ -1,3 +1,5 @@
+using MistyDashboard.ApplicationState;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,5 +26,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.MapControllers();
+
+
 
 app.Run();

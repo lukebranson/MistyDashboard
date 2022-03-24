@@ -1,5 +1,57 @@
 ﻿@page
+@using MistyDashboard.ApplicationState
 @model MistyDashboard.Pages.DashBoard.ConnectedRobotsModel
 @{
     ViewData["Title"] = "Agents";
+    AppState singleState = new AppState();
+    ConnectedRobot rob1 = new ConnectedRobot("Fred","192.168.1.1");
+    ConnectedRobot rob2 = new ConnectedRobot("Shaggy","192.168.1.1");
+    ConnectedRobot rob3 = new ConnectedRobot("Scoob","8.8.8.8");
+    singleState.addBot(rob1);
+    singleState.addBot(rob2);
+    singleState.addBot(rob3);
+    List<ConnectedRobot> robots = singleState.getBots();
 }
+
+<div class="modal fade " id="add-robot-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mb-3">
+            <h1>
+                 Connected Misty's
+            </h1>
+        </div>
+        <div class="col-12">
+            <div class="connected-bot-table">
+                @foreach(var bot in robots)
+                {
+                    <div class="connected-bot-info container-fluid">
+                        <div class="row">
+                            <div class="bot-info-section bot-name col-3">@(bot.name)</div>
+                            <div class="bot-info-section bot-ip col-3">@(bot.ipAddress)</div>
+                            <div class="col-6 bot-control-section">
+                                <div class="bot-controls">
+                                    <img src="~/img/icon/x-symbol.svg" class="remove-bot-icon"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-12 mt-5">
+            <div class="agents-controls">
+                <button id="show-add-robot-modal-btn" type="button" class="btn-primary btn" data-toggle="modal" data-target="#add-robot-modal">
+                    Add Robot
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
