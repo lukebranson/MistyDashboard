@@ -3,3 +3,44 @@
 @{
     ViewData["Title"] = "Tasks";
 }
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mb-3">
+            <h1>
+                 Task´s
+            </h1>
+        </div>
+            <div class="col-12">
+                <div class="tasks-selector-panel">
+                    <div class="tasks-selector-padding"> 
+                        <p> 
+                            Select Task Menu 
+                        </p>
+                            <label for="TaskSelection"> Choose a task: </label>
+                                <select name="TaskSelection" id="TaskSelection">
+                                    <option value="MistyOption1">Tasks provided by misty here</option>
+                                </select>
+                                    <button id="select-robots-btn" type="button" class="btn-primary btn button-select-robot">
+                                        Select Robot
+                                    </button>
+                         <div>
+                            <button id="run-task-btn" type="button" class="btn-success btn button-select-robot">
+                                Run
+                            </button>
+                            <button id="stop-task-btn" type="button" class="btn-danger btn button-select-robot">
+                                Stop
+                            </button>
+                         </div>
+                    </div>
+                </div>
+                <div class="tasks-info-panel">
+                    <div class="tasks-selector-padding">
+                        <p>
+                            Task Info
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>

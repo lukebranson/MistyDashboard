@@ -14,10 +14,15 @@ html {
 }
 
 
-.page-container{
-    display:flex;
-    flex-direction:row;
-    height:100vh;
+body {
+    margin-bottom: 60px;
+}
+
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
 }
 
 /* The sidebar menu */
@@ -25,8 +30,8 @@ html {
     height: 100%; /* Full-height: remove this if you want "auto" height */ /* Set the width of the sidebar */
     background-color: #111; /* Black */
     padding-top: 20px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
     .sidenav .header {
@@ -53,52 +58,79 @@ html {
             color: #f1f1f1;
         }
 
-    .navlink-active {
-        color: #f1f1f1!important;
-    }
+.navlink-active {
+    color: #f1f1f1 !important;
+}
+
+
+/* White box for task selector*/
+.tasks-selector-panel {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* White box for task selector*/
+.tasks-info-panel {
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    width: 100%;
+    height: 80%;
+}
+
+/* Heading padding in field*/
+.tasks-selector-padding {
+    padding: 16px;
+}
+
+.button-select-robot {
+    margin: 8px;
+}
 
 .connected-bot-table {
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
     border-radius: 6px;
-    width:100%;
+    width: 100%;
 }
 
 .connected-bot-info {
     padding: 15px;
 }
 
-.bot-info-section{
-    font-weight:bold;
-
+.bot-info-section {
+    font-weight: bold;
 }
 
-.bot-controls{
-    display:flex;
-    justify-content:right;
-    align-items:center;
-    height:100%;
+.bot-controls {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
 }
 
-.remove-bot-icon{
-    height:10px;
-    width:auto;
-    object-fit:contain;
-    margin-right:15px;
-    cursor:pointer;
+.remove-bot-icon {
+    height: 10px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 15px;
+    cursor: pointer;
 }
 
-.agents-controls{
-    display:flex;
-    flex-direction:row;
-    justify-content:right;
+.agents-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 /* Style page content */
 .page-content {
     background-color: #eee;
-    flex-grow:1;
-    padding:50px;
+    flex-grow: 1;
+    padding: 50px;
 }
 
     .page-content text {
