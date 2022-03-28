@@ -3,6 +3,7 @@ using MistyDashboard.ApplicationState;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.Add(new ServiceDescriptor(typeof(IAppState), new AppState()));
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 

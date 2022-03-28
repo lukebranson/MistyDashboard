@@ -11,7 +11,8 @@ namespace MistyDashboard.ApiControllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("test");
+            System.Diagnostics.Debug.WriteLine("connection successful");
+            return Ok("connection successful");
         }
     }
 }

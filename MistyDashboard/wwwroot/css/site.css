@@ -22,12 +22,13 @@ body {
 .page-container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */ /* Set the width of the sidebar */
+    min-height:100vh;
     background-color: #111; /* Black */
     padding-top: 20px;
     padding-left: 20px;

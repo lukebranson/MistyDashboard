@@ -1,6 +1,13 @@
 ﻿namespace MistyDashboard.ApplicationState
 {
-    public class AppState
+
+    public interface IAppState
+    {
+        void addBot(ConnectedRobot botToAdd);
+        List<ConnectedRobot> getBots();
+    }
+
+    public class AppState : IAppState
     {
         public List<ConnectedRobot> robots;
 

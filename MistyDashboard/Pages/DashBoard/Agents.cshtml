@@ -1,15 +1,9 @@
 ﻿@page
 @using MistyDashboard.ApplicationState
 @model MistyDashboard.Pages.DashBoard.ConnectedRobotsModel
+@inject IAppState singleState
 @{
     ViewData["Title"] = "Agents";
-    AppState singleState = new AppState();
-    ConnectedRobot rob1 = new ConnectedRobot("Fred","192.168.1.1");
-    ConnectedRobot rob2 = new ConnectedRobot("Shaggy","192.168.1.1");
-    ConnectedRobot rob3 = new ConnectedRobot("Scoob","8.8.8.8");
-    singleState.addBot(rob1);
-    singleState.addBot(rob2);
-    singleState.addBot(rob3);
     List<ConnectedRobot> robots = singleState.getBots();
 }
 

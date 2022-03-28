@@ -11,5 +11,15 @@
             name = newName;
             ipAddress = newIp;
         }
+
+        public string getName()
+        {
+            return name;
+        }
+
+        public string getIp()
+        {
+            return ipAddress;
+        }
     }
 }
