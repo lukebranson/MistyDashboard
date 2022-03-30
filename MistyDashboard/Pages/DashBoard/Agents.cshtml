@@ -10,10 +10,29 @@
 <div class="modal fade " id="add-robot-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      ...
+      <form>
+          <div class="container p-5">
+            <h1 class="mb-2">Add Robot:</h1>
+            <div class="row pb-4">
+                <div class="col col-12">
+                    <input type="text" style="width:100%" placeholder="Robot Name" class="p-2" id="nameInput"/>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col col-12">
+                    <input type="text" style="width:100%" placeholder="IP Address"  class="p-2" id="ipInput"/>
+                </div>
+            </div>
+            <div class="row">
+                <button onclick="addBot()" class="btn-primary btn" style="width:50%;margin-left:50%;">add</button>
+            </div>
+          </div>
+      </form>
+
     </div>
   </div>
 </div>
+<script src="~/js/addRobotFromForm.js" ></script>
 
 <div class="container-fluid">
     <div class="row">
