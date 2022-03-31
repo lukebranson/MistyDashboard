@@ -1,10 +1,11 @@
-﻿function addBot(botIP) {
+﻿function addBot() {
     console.log("working");
     var botName = document.getElementById("nameInput").value;
     var botIp = document.getElementById("ipInput").value;
-    var pageUrl = newURL(window.location.href);
+    var pageUrl = new URL(window.location.href);
     var hostName = pageUrl.hostname;
-    botUrl = "http://" + hostname + "/api/AddRobot";
+    botUrl = "http://" + hostName + "/api/AddRobot";
+    console.log(botUrl);
     botData = { "Name" : botName, "Ip" : botIp };
     $.post({
         url: botUrl, skillData, function(result) {
