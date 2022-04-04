@@ -16,8 +16,9 @@ namespace MistyDashboard.ApiControllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] BotAddition botData)
+        public ActionResult Post([FromBody] BotAddition botData)
         {
+            System.Diagnostics.Debug.WriteLine("working....");    
             ConnectedRobot newBot = new ConnectedRobot(botData.Name, botData.Ip);
             _appState.addBot(newBot);
 

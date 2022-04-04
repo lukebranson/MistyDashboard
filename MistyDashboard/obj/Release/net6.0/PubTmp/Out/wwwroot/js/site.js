@@ -2,3 +2,5 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+$('#show-add-robot-modal-btn').on('click', function () { $('#add-robot-modal').modal('show'); });

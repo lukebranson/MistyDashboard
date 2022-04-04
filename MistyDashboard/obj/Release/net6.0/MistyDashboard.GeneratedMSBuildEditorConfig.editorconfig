@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/DashBoard/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkXEFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/DashBoard/Agents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkXEFnZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/DashBoard/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkXFNldHRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/DashBoard/Tasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkXFRhc2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,8 +39,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/Partials/AddRobotModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbHNcQWRkUm9ib3RNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/Shared/_DashboardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lukea/source/repos/MistyDashboard/MistyDashboard/Pages/Shared/_ValidationScriptsPartial.cshtml]

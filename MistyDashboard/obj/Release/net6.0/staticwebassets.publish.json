@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UYGJF2SlMeQSz44+g9lNrFRJdBPft5ja0GZg5Eic+vw=",
+  "Hash": "H3HS98VdZPGihjHd29NOBhMObibt2FwPzc2rsklBBBA=",
   "Source": "MistyDashboard",
   "BasePath": "_content/MistyDashboard",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icon\\x-symbol.svg",
+      "SourceId": "MistyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
+      "BasePath": "_content/MistyDashboard",
+      "RelativePath": "img/icon/x-symbol.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon\\x-symbol.svg"
+    },
+    {
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\addRobotFromForm.js",
+      "SourceId": "MistyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
+      "BasePath": "_content/MistyDashboard",
+      "RelativePath": "js/addRobotFromForm.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\addRobotFromForm.js"
     },
     {
       "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\mistySkillStarter.js",
