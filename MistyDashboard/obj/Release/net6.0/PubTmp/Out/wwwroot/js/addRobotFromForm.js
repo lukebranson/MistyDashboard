@@ -8,12 +8,25 @@
     console.log("sending request to " + botUrl);
     botData = { "Name": botName, "Ip": botIp };
     var postData = JSON.stringify(botData);
-    $.post({
-        url: botUrl, dataType: 'json', contentType: "application/json", type: 'post', data: postData, function(result) {
-            console.log("result: " + result);
-            if (result == "success") {
-                console.log(result);
+    $.ajax({
+        url: botUrl, contentType: "application/json", type: 'POST', data: postData, success:function(response) {
+            console.log("result: " + response);
+            if (response == "success") {
+                console.log(response);
                 location.reload();
+            }
+            else {
+                var responseLoc = document.getElementById("responseBox");
+                if (response == "duplicateBot") {
+                    responseLoc.innerHTML = "bot Name or Ip already taken";
+                } else if (response == "notConnected") {
+                    responseLoc.innerHTML = "failed to connect to robot";
+                } else if (response == "invalidIP") {
+                    responseLoc.innerHTML = "invalid IP address";
+                } else {
+                    responseLoc.innerHTML = "an unknown error occurred";
+                }
+                responseLoc.style.display = "block";
             }
         }
     });
