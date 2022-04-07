@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow: hidden;">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,10 +12,26 @@
     <div class="page-container">
         <div class="sidenav">
           <a runat="server" href="~/" class="header">MISTY DASHBOARD</a>
-          <a runat="server" href="~/Dashboard/Agents" class="@((string)ViewData["Title"]=="Agents" ? "navlink-active" : "")">AGENTS</a>
-          <a runat="server" href="~/Dashboard/Tasks" class="@((string)ViewData["Title"]=="Tasks" ? "navlink-active" : "")">TASKS</a>
-          <a runat="server" href="~/Dashboard/Settings" class="@((string)ViewData["Title"]=="Settings" ? "navlink-active" : "")">SETTINGS</a>
-          <a runat="server" href="~/Dashboard/About" class="@((string)ViewData["Title"]=="About" ? "navlink-active" : "")">ABOUT</a>
+          <a runat="server" href="~/Dashboard/Agents" class="@((string)ViewData["Title"]=="Agents" ? "navlink-active" : "")">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" style = "min-width: 3rem;" viewBox="0 0 16 16">
+                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+            </svg>
+              AGENTS
+          </a>
+          <a runat="server" href="~/Dashboard/Tasks" class="@((string)ViewData["Title"]=="Tasks" ? "navlink-active" : "")">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list-task" style = "min-width: 3rem;" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z"/>
+                  <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z"/>
+                  <path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"/>
+              </svg>
+              TASKS
+          </a>
+          <a runat="server" href="~/Dashboard/Settings" class="@((string)ViewData["Title"]=="Settings" ? "navlink-active" : "")">
+              SETTINGS
+          </a>
+          <a runat="server" href="~/Dashboard/About" class="@((string)ViewData["Title"]=="About" ? "navlink-active" : "")">
+              ABOUT
+          </a>
         </div>
 
         <!-- Page content -->
