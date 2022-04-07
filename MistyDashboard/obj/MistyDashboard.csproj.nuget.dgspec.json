@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pablo\\source\\repos\\lukebranson\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj": {}
+    "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pablo\\source\\repos\\lukebranson\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj": {
+    "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pablo\\source\\repos\\lukebranson\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj",
+        "projectUniqueName": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj",
         "projectName": "MistyDashboard",
-        "projectPath": "C:\\Users\\pablo\\source\\repos\\lukebranson\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj",
-        "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pablo\\source\\repos\\lukebranson\\MistyDashboard\\MistyDashboard\\obj\\",
+        "projectPath": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\MistyDashboard.csproj",
+        "packagesPath": "C:\\Users\\lukea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lukea\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
