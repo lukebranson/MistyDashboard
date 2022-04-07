@@ -16,6 +16,7 @@ html {
 
 body {
     margin-bottom: 60px;
+    margin:0;
 }
 
 
@@ -28,11 +29,13 @@ body {
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */ /* Set the width of the sidebar */
-    min-height:100vh;
+    min-height: 100vh;
     background-color: #111; /* Black */
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    width: 300px;
+    position: fixed;
 }
 
     .sidenav .header {
@@ -54,6 +57,10 @@ body {
         display: block;
     }
 
+        .sidenav a svg {
+            padding-bottom: 5px;
+        }
+            
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover {
             color: #f1f1f1;
@@ -150,4 +157,34 @@ body {
         .sidenav a {
             font-size: 18px;
         }
+}
+
+.typewriter h1{
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: typing 3.5s steps(25, end), blink-caret .50s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: dodgerblue;
+    }
 }

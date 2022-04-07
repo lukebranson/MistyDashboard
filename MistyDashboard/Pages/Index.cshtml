@@ -2,7 +2,37 @@
 @{
     ViewData["Title"] = "Home";
 }
-<div class="text-center mt-5">
-    <h1 class="display-4">Welcome To the Misty Dashboard</h1>
-    <button class="btn btn-primary" onclick = "startMisty('192.168.27.27')">ENTER</button>
+<div class="row align-items-center g-5" style= "overflow: hidden; margin-left: 300px;">
+    <div class = " col-xl-5 col-sm-12 py-6 py-xl-0">
+        <div class = "mb-4 text-center text-xl-start px-md-8 px-lg-19 px-xl-0">
+            <h1 class = "display-2 fw-bold mb-3 text-black ls-sm">
+                <>Welcome to Misty
+            </h1>
+            <div class = "typewriter"> <h1 class = "display-2 fw-bold mb-3 text-primary ls-sm">DashBoard <></h1></div>
+            <p class="mb-6 lead text-black-50 pe-lg-6">
+              Start playing with all the functionalities you can imagine and much more
+            </p>
+             <button class="btn btn-primary" onclick = "startMisty('192.168.27.27')">Wake Misty Up!</button>
+        </div>
+    </div>
+    <div class="col-xl-7 col-md-12 d-flex justify-content-start" style = " overflow: hidden;">
+
+        <div class="p-2 bg-white shadow rounded-3 position-absolute" style = "left: 60%; top: 5%;">
+					<img src="~/img/icons8-language-48.png" alt="Icon">
+		</div>
+
+        <div class="p-2 bg-white shadow rounded-3 position-absolute" style = "top: 30%; right: 10%; z-index: 2;">
+					<img src="~/img/icons8-face-scan-48.png" alt="Icon">
+		</div>
+        <div class="p-2 bg-white shadow rounded-3 position-absolute" style = "top: 45%; right: 35%; z-index: 2;">
+					<img src="~/img/icons8-wall-mount-camera-48.png" alt="Icon">
+		</div>
+
+        <div class = "position-absolute w-50" style = "opacity: 0.2; z-index:0; object-fit:contain; overflow: hidden;">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#0F62FE" d="M47.2,-71.8C62,-63.9,75.4,-52.2,80.9,-37.7C86.5,-23.1,84.1,-5.7,79,9.5C73.9,24.6,66,37.5,56,47.7C45.9,57.8,33.6,65.1,19.3,72.5C4.9,79.8,-11.4,87.2,-26.3,85C-41.2,82.7,-54.7,70.9,-66.3,57.5C-77.9,44.1,-87.6,29,-90,12.9C-92.5,-3.3,-87.6,-20.5,-79.4,-35.3C-71.1,-50,-59.5,-62.2,-45.7,-70.6C-31.9,-78.9,-15.9,-83.4,0.1,-83.6C16.2,-83.8,32.4,-79.6,47.2,-71.8Z" transform="translate(100 100)" />
+            </svg>
+        </div>
+        <img src="~/img/ezgif.com-gif-maker.png" alt="" class="img-fluid mw-md-160" style="z-index: 1; width:100%;height:600px;object-fit:contain;">
+    </div>
 </div>
