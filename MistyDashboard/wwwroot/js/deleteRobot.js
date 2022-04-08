@@ -2,7 +2,7 @@
     console.log("deleting robot...");
     var pageUrl = new URL(window.location.href);
     var hostName = pageUrl.hostname;
-    botUrl = "http://" + hostName + ":" + pageUrl.port + "/api/DeleteRobot";
+    botUrl = window.location.protocol + "//" + hostName + ":" + pageUrl.port + "/api/DeleteRobot";
     botData = botName;
     var postData = JSON.stringify(botData);
     $.ajax({

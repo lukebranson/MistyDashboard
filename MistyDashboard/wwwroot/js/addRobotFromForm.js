@@ -4,7 +4,7 @@
     var botIp = document.getElementById("ipInput").value;
     var pageUrl = new URL(window.location.href);
     var hostName = pageUrl.hostname;
-    botUrl = "http://" + hostName + ":" + pageUrl.port + "/api/AddRobot";
+    botUrl = window.location.protocol + "//" + hostName + ":" + pageUrl.port + "/api/AddRobot";
     console.log("sending request to " + botUrl);
     botData = { "Name": botName, "Ip": botIp };
     var postData = JSON.stringify(botData);
