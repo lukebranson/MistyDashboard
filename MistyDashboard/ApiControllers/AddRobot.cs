@@ -30,19 +30,19 @@ namespace MistyDashboard.ApiControllers
                 ip = IPAddress.Parse(botData.Ip);
             }
 
-            catch (ArgumentNullException e)
+            catch (ArgumentNullException)
             {
                 returnVal = "invalidIP";
                 return Ok(returnVal);
             }
 
-            catch (FormatException e)
+            catch (FormatException)
             {
                 returnVal = "invalidIP";
                 return Ok(returnVal);
             }
 
-            catch (Exception e)
+            catch (Exception)
             {
                 returnVal = "invalidIP";
                 return Ok(returnVal);

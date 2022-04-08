@@ -1,6 +1,6 @@
 html {
     font-size: 14px;
-    background-color:black;
+    background-color: black;
 }
 
 @media (min-width: 768px) {
@@ -12,12 +12,6 @@ html {
 html {
     position: relative;
     min-height: 100%;
-}
-
-
-body {
-    margin-bottom: 60px;
-    margin:0;
 }
 
 
@@ -35,7 +29,6 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 300px;
 }
 
     .sidenav .header {
@@ -57,10 +50,6 @@ body {
         display: block;
     }
 
-        .sidenav a svg {
-            padding-bottom: 5px;
-        }
-            
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover {
             color: #f1f1f1;
@@ -68,6 +57,11 @@ body {
 
 .navlink-active {
     color: #f1f1f1 !important;
+}
+
+.page-content {
+    overflow-y: scroll;
+    max-height: 100vh;
 }
 
 
@@ -157,34 +151,4 @@ body {
         .sidenav a {
             font-size: 18px;
         }
-}
-
-.typewriter h1{
-    overflow: hidden; 
-    border-right: .15em solid orange; 
-    white-space: nowrap; 
-    margin: 0 auto;
-    animation: typing 3.5s steps(25, end), blink-caret .50s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to {
-        border-color: transparent
-    }
-
-    50% {
-        border-color: dodgerblue;
-    }
 }

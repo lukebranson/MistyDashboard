@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5nJS9LXJ4epaUxhxdn+ExfL/YOd/VjWDksQgOhVwQu8=",
+  "Hash": "k0inJyQbbeR2IKAbrMXJ1E1gG4Q7Voz4R/ToFVqbM2E=",
   "Source": "MistyDashboard",
   "BasePath": "_content/MistyDashboard",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\addRobotFromForm.js"
+    },
+    {
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\deleteRobot.js",
+      "SourceId": "MistyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
+      "BasePath": "_content/MistyDashboard",
+      "RelativePath": "js/deleteRobot.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\deleteRobot.js"
     },
     {
       "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\mistySkillStarter.js",
