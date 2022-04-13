@@ -4,12 +4,12 @@
     var botIp = document.getElementById("ipInput").value;
     var pageUrl = new URL(window.location.href);
     var hostName = pageUrl.hostname;
-    botUrl = "http://" + hostName + ":" + pageUrl.port + "/api/AddRobot";
-    console.log("sending request to " + botUrl);
+    apiUrl = window.location.protocol + "//" + hostName + ":" + pageUrl.port + "/api/AddRobot";
+    console.log("sending request to " + apiUrl);
     botData = { "Name": botName, "Ip": botIp };
     var postData = JSON.stringify(botData);
     $.ajax({
-        url: botUrl, contentType: "application/json", type: 'POST', data: postData, success:function(response) {
+        url: apiUrl, contentType: "application/json", type: 'POST', data: postData, success:function(response) {
             console.log("result: " + response);
             if (response == "success") {
                 console.log(response);

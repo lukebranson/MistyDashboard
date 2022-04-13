@@ -1,5 +1,7 @@
 ﻿@page
+@using MistyDashboard.ApplicationState
 @model MistyDashboard.Pages.DashBoard.TasksModel
+@inject IAppState singleState
 @{
     ViewData["Title"] = "Tasks";
 }
@@ -8,27 +10,27 @@
     <div class="row">
         <div class="col-12 mb-3">
             <h1>
-                 Task´s
+                 Tasks
             </h1>
         </div>
             <div class="col-12">
                 <div class="tasks-selector-panel">
                     <div class="tasks-selector-padding"> 
                         <p> 
-                            Select Task Menu 
+                            Current Task: @(singleState.getCurrentTask()) 
                         </p>
-                            <label for="TaskSelection"> Choose a task: </label>
-                                <select name="TaskSelection" id="TaskSelection">
-                                    <option value="MistyOption1">Tasks provided by misty here</option>
-                                </select>
-                                    <button id="select-robots-btn" type="button" class="btn-primary btn button-select-robot">
-                                        Select Robot
-                                    </button>
+                        <label for="TaskSelection"> Choose a task: </label>
+                        <select name="TaskSelection" id="TaskSelection">
+                            @foreach(string taskName in singleState.getTasks())
+                            {
+                                <option value="@(taskName)">@(taskName)</option>
+                            }
+                        </select>
                          <div>
-                            <button id="run-task-btn" type="button" class="btn-success btn button-select-robot">
+                            <button id="run-task-btn" type="button" class="btn-success btn button-select-robot" onclick="startTask()">
                                 Run
                             </button>
-                            <button id="stop-task-btn" type="button" class="btn-danger btn button-select-robot">
+                            <button id="stop-task-btn" type="button" class="btn-danger btn button-select-robot" onclick="endTask()">
                                 Stop
                             </button>
                          </div>

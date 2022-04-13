@@ -3,7 +3,20 @@ using MistyDashboard.ApplicationState;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.Add(new ServiceDescriptor(typeof(IAppState), new AppState()));
+List<string> initTasks = new List<string> {
+    "Conversation",
+    "Dancing",
+    "DetectingObj",
+    "FaceRecognition",
+    "Reaction",
+    "RockPaperScissors",
+    "SecurityCamera",
+    "SoundToTextGoogle",
+    "TextToSoundGoogle",
+    "TicTacToe",
+    "Translation"
+};
+builder.Services.Add(new ServiceDescriptor(typeof(IAppState), new AppState(initTasks)));
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 

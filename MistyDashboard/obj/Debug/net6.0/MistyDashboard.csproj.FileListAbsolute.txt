@@ -76,3 +76,5 @@ C:\Users\pablo\source\repos\lukebranson\MistyDashboard\MistyDashboard\obj\Debug\
 C:\Users\pablo\source\repos\lukebranson\MistyDashboard\MistyDashboard\obj\Debug\net6.0\MistyDashboard.pdb
 C:\Users\pablo\source\repos\lukebranson\MistyDashboard\MistyDashboard\obj\Debug\net6.0\MistyDashboard.genruntimeconfig.cache
 C:\Users\pablo\source\repos\lukebranson\MistyDashboard\MistyDashboard\obj\Debug\net6.0\ref\MistyDashboard.dll
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Debug\net6.0\MistyDashboard.csproj.CopyComplete
