@@ -5,3 +5,4 @@ C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\Pub
 C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.deps.json
 C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.runtimeconfig.json
 C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\MistyDashboard.pdb
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll

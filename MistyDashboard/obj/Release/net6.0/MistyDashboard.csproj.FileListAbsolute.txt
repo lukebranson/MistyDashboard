@@ -24,3 +24,5 @@ C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\Mis
 C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\ref\MistyDashboard.dll
 C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\MistyDashboard.pdb
 C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\MistyDashboard.genruntimeconfig.cache
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\bin\Release\net6.0\Newtonsoft.Json.dll
+C:\Users\lukea\source\repos\MistyDashboard\MistyDashboard\obj\Release\net6.0\MistyDashboard.csproj.CopyComplete
