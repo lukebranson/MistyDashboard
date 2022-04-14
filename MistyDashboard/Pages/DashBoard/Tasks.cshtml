@@ -8,41 +8,48 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 mb-3">
+        <div class="col-12 mb-2">
             <h1>
-                 Tasks
+                 Run Tasks
             </h1>
         </div>
-            <div class="col-12">
-                <div class="tasks-selector-panel">
-                    <div class="tasks-selector-padding"> 
-                        <p> 
-                            Current Task: @(singleState.getCurrentTask()) 
-                        </p>
-                        <label for="TaskSelection"> Choose a task: </label>
-                        <select name="TaskSelection" id="TaskSelection">
-                            @foreach(string taskName in singleState.getTasks())
-                            {
-                                <option value="@(taskName)">@(taskName)</option>
-                            }
-                        </select>
-                         <div>
-                            <button id="run-task-btn" type="button" class="btn-success btn button-select-robot" onclick="startTask()">
-                                Run
-                            </button>
-                            <button id="stop-task-btn" type="button" class="btn-danger btn button-select-robot" onclick="endTask()">
-                                Stop
-                            </button>
-                         </div>
-                    </div>
-                </div>
-                <div class="tasks-info-panel">
-                    <div class="tasks-selector-padding">
-                        <p>
-                            Task Info
-                        </p>
-                    </div>
+        <div class="col-12 mb-3">
+            <div class="tasks-selector-panel">
+                <div class="tasks-selector-padding"> 
+                    <p> 
+                        Current Task: @(singleState.getCurrentTask()) 
+                    </p>
+                    <label for="TaskSelection"> Choose a task: </label>
+                    <select name="TaskSelection" id="TaskSelection">
+                        @foreach(string taskName in singleState.getTasks())
+                        {
+                            <option value="@(taskName)">@(taskName)</option>
+                        }
+                    </select>
+                        <div>
+                        <button id="run-task-btn" type="button" class="btn-success btn button-select-robot" onclick="startTask()">
+                            Run
+                        </button>
+                        <button id="stop-task-btn" type="button" class="btn-danger btn button-select-robot" onclick="endTask()">
+                            Stop
+                        </button>
+                        </div>
                 </div>
             </div>
+        </div>
+        <div class="col-12 mb-2">
+            <h1>
+                 Task Info
+            </h1>
+        </div>
+        <div class="col-12">
+            <div class="tasks-info-panel">
+                <div class="tasks-selector-padding">
+                    <p>
+                        no task running...
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

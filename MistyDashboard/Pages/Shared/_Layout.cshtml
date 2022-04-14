@@ -41,7 +41,7 @@
         </div>
 
         <!-- Page content -->
-        <div class="page-content">
+        <div class="page-content "@((string)ViewData["Title"] == "Home" ? "style=overflow-y:hidden" : "")>
           @RenderBody()
         </div>
     </div>
