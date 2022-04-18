@@ -160,6 +160,62 @@ html {
     animation: typing 3.5s steps(25, end), blink-caret .50s step-end infinite;
 }
 
+/* About CSS starting here */
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.faq-body {
+    margin: auto;
+    width: 50%;
+}
+/* Add a background color to the button if it is clicked on  */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+.faq-body {
+    padding: 0 18px;
+    background-color: #eee;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+/* About CSS ending here */
+
 /* The typing effect */
 @keyframes typing {
     from {

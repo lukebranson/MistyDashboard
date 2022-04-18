@@ -3,6 +3,105 @@
     ViewData["Title"] = "About";
 }
 
-<p>
-    developed by luke, pablo, philipp
-</p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About PAGE</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="col-12 mb-2">Frequently Asked Questions</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h1 class="faq-page">How do you get the IP from your Misty robot?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>
+                        Getting Misty´s IP address can be a troubling process. Luckly, there is an app which can help us out.
+                        Here is how you get the IP address of your Misty robot.
+                    </p>
+
+                    <p>
+                        1. Download & install the Misty app from your local appstore. Once, succeeded turn on wifi and bluetooth 
+                           on your local device.
+                    </p>
+
+                    <p>
+                        2. Power up your Misty
+                    </p>
+
+                    <p>
+                        3. Check Misty´s serial number (SN) on the bottom of your robot.
+                    </p>
+                    <p>
+                        4. Select the Misty with the relating SN in the Misty app.
+                        <img src="~/img/mistyName.PNG" alt="misty SN">
+                    </p>
+                    <p>
+                        5. Read out the IP address and use to connect to Misty in the Dashboard
+                        <img src="~/img/mistyIP.PNG" alt="misty SN">
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <!-- faq question -->
+                <h1 class="faq-page">How do I run a task?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>
+                        Running tasks is a key functionality for Misty. Tasks are called skills in the Misty Universe.
+                        It is possible to run a task on different and multilple robots. Before selecting a task it is important to select which Robots should execute the task.
+                        Once done click the dropdown menu and choose the prefered task. If the task needs any other setting the dashboard will give you further information.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <!-- faq question -->
+                <h1 class="faq-page">How do I change the name of my robot?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>
+                        You want to change the name of your robot? No problem, simply go to Agents page and press on the edit button near the IP address.
+                        Now you are able to change the name, do not forget to save it. 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PLEASE CHANGE THIS TO MY JAVASRIPT FILE I DONT KNOW HOW -->
+    <script>
+    var faq = document.getElementsByClassName("faq-page");
+    var i;
+
+    for (i = 0; i < faq.length; i++) {
+        faq[i].addEventListener("click", function () {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+            /* Toggle between hiding and showing the active panel */
+            var body = this.nextElementSibling;
+            if (body.style.display === "block") {
+                body.style.display = "none";
+            } else {
+                body.style.display = "block";
+            }
+        });
+    }
+    </script>
+
+    <hr class="hr-line">
+    <p>
+        <center> <h4> Misty Mountain & Boudacios Battle Bots Senior Project</h4> </center>
+    </p>
+
+    <p> 
+        <center> Dashboard GUI & UX & Functionality created by Luke, Pablo and Philipp </center> 
+    </p>
+</body>
