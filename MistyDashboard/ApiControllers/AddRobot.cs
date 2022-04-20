@@ -50,77 +50,69 @@ namespace MistyDashboard.ApiControllers
                 returnVal = "invalidIP";
                 return Ok(returnVal);
             }
-            PingReply reply = pingSender.Send(ip);
-            if (reply.Status == IPStatus.Success)
+            foreach (var botToCheck in _appState.getBots())
             {
-                foreach (var botToCheck in _appState.getBots())
+                if (botToCheck.getName() == botData.Name || botToCheck.getIp() == botData.Ip)
                 {
-                    if (botToCheck.getName() == botData.Name || botToCheck.getIp() == botData.Ip)
-                    {
-                        returnVal = "duplicateBot";
-                        return Ok(returnVal);
-                    }
-                }
-                //get tasks from bot
-                string skillDataStr;
-                Dictionary<string, string> newSkills = new Dictionary<string, string>();
-                try
-                {
-                    string botUrl = "http://" + ip + "/api/skills";
-                    var skillData = client.GetAsync(botUrl).Result;
-                    if (!skillData.IsSuccessStatusCode)
-                    {
-                        returnVal = "notMisty";
-                        return Ok(returnVal);
-                    }
-                    skillDataStr = skillData.Content.ReadAsStringAsync().Result;
-                    var actualSkillData = JsonSerializer.Deserialize<SkillData>(skillDataStr);
-                    foreach(var res in actualSkillData.result)
-                    {
-                        newSkills.Add(res.name, res.uniqueId);
-                    }
-                }
-                catch
-                {
-                    returnVal = "notMisty";
+                    returnVal = "duplicateBot";
                     return Ok(returnVal);
                 }
-
-
-                ConnectedRobot newBot = new ConnectedRobot(botData.Name, botData.Ip);
-                newBot.setTasks(newSkills);
-                _appState.addBot(newBot);
-                try
+            }
+            //get tasks from bot
+            string skillDataStr;
+            Dictionary<string, string> newSkills = new Dictionary<string, string>();
+            try
+            {
+                string botUrl = "http://" + ip + "/api/skills";
+                var skillData = client.GetAsync(botUrl).Result;
+                if (!skillData.IsSuccessStatusCode)
                 {
-                    string botUrl = "http://" + ip + "/api/led?red=0&green=255&blue=0";
-                    var response = client.PostAsync(botUrl, new StringContent("", Encoding.UTF8, "application/json")).Result;
-                    if (!response.IsSuccessStatusCode)
-                    {
-                        returnVal = "notConnected";
-                        return Ok(returnVal);
-                    }
-                    botUrl = "http://" + ip + "/api/audio/play";
-                    string audioString = "{ \"fileName\":\"033-Ya.wav\",\"volume\":100 }";
-                    response = client.PostAsync(botUrl, new StringContent(audioString, Encoding.UTF8, "application/json")).Result;
-                    if (!response.IsSuccessStatusCode)
-                    {
-                        returnVal = "notConnected";
-                        return Ok(returnVal);
-                    }
-                }
-                catch
-                {
-                    returnVal = "notConnected";
+                    returnVal = "error: failed to load robot information";
                     return Ok(returnVal);
                 }
-                //testIP: 10.12.132.44
-                returnVal = "success";
+                skillDataStr = skillData.Content.ReadAsStringAsync().Result;
+                var actualSkillData = JsonSerializer.Deserialize<SkillData>(skillDataStr);
+                foreach(var res in actualSkillData.result)
+                {
+                    newSkills.Add(res.name, res.uniqueId);
+                }
+            }
+            catch
+            {
+                returnVal = "error: failed to request robot information";
                 return Ok(returnVal);
             }
-            else
+
+
+            ConnectedRobot newBot = new ConnectedRobot(botData.Name, botData.Ip);
+            newBot.setTasks(newSkills);
+            _appState.addBot(newBot);
+            try
             {
-                returnVal = "notConnected";
+                string botUrl = "http://" + ip + "/api/led?red=0&green=255&blue=0";
+                var response = client.PostAsync(botUrl, new StringContent("", Encoding.UTF8, "application/json")).Result;
+                if (!response.IsSuccessStatusCode)
+                {
+                    returnVal = "error: failed to initialize robot light";
+                    return Ok(returnVal);
+                }
+                botUrl = "http://" + ip + "/api/audio/play";
+                string audioString = "{ \"fileName\":\"033-Ya.wav\",\"volume\":100 }";
+                response = client.PostAsync(botUrl, new StringContent(audioString, Encoding.UTF8, "application/json")).Result;
+                if (!response.IsSuccessStatusCode)
+                {
+                    returnVal = "error: failed to initialize robot sounds";
+                    return Ok(returnVal);
+                }
             }
+            catch
+            {
+                returnVal = "error: failed to start initialization feedback";
+                return Ok(returnVal);
+            }
+            //testIP: 10.12.132.44
+            returnVal = "success";
+            return Ok(returnVal);
             return Ok(returnVal);
         }
     }
