@@ -90,6 +90,29 @@ namespace MistyDashboard.ApiControllers
                 ConnectedRobot newBot = new ConnectedRobot(botData.Name, botData.Ip);
                 newBot.setTasks(newSkills);
                 _appState.addBot(newBot);
+                try
+                {
+                    string botUrl = "http://" + ip + "/api/led?red=0&green=255&blue=0";
+                    var response = client.PostAsync(botUrl, new StringContent("", Encoding.UTF8, "application/json")).Result;
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        returnVal = "notConnected";
+                        return Ok(returnVal);
+                    }
+                    botUrl = "http://" + ip + "/api/audio/play";
+                    string audioString = "{ \"fileName\":\"033-Ya.wav\",\"volume\":100 }";
+                    response = client.PostAsync(botUrl, new StringContent(audioString, Encoding.UTF8, "application/json")).Result;
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        returnVal = "notConnected";
+                        return Ok(returnVal);
+                    }
+                }
+                catch
+                {
+                    returnVal = "notConnected";
+                    return Ok(returnVal);
+                }
                 //testIP: 10.12.132.44
                 returnVal = "success";
                 return Ok(returnVal);
