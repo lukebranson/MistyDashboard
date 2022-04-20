@@ -20,7 +20,7 @@
                         Current Task: @(singleState.getCurrentTask()) 
                     </p>
                     <label for="TaskSelection"> Choose a task: </label>
-                    <select name="TaskSelection" id="TaskSelection">
+                    <select class = "selectpicker" title = "Taks" name="TaskSelection" id="TaskSelection">
                         @foreach(string taskName in singleState.getTasks())
                         {
                             <option value="@(taskName)">@(taskName)</option>

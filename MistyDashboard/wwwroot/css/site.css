@@ -180,4 +180,20 @@ html {
     50% {
         border-color: dodgerblue;
     }
+
 }
+.modal .warp-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(62, 100, 255, 0.1);
+    color: #3e64ff;
+    border-radius: 50%;
+}
+
+    .modal .warp-icon span {
+        position: absolute;
+        left: 19%;
+        top: 15%;
+    }
