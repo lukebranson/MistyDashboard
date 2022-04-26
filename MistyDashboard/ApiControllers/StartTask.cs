@@ -42,7 +42,7 @@ namespace MistyDashboard.ApiControllers
                 //returnVal = response.ToString();
             }
 
-            
+            _appState.setTaskInfo("task init");
 
             return Ok(returnVal);
         }

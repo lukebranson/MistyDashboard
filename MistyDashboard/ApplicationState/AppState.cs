@@ -10,6 +10,8 @@
         string getCurrentTask();
         void setCurrentTask(string taskName);
         bool deleteBot(string nameToFind);
+        string setTaskInfo(string newTaskInfo);
+        string getTaskInfo();
     }
 
     public class AppState : IAppState
@@ -17,6 +19,7 @@
         public List<ConnectedRobot> robots;
         public List<string> tasks;
         public string currentTask;
+        public string taskInfo;
 
         public AppState()
         {
@@ -30,6 +33,7 @@
             robots = new List<ConnectedRobot>();
             tasks = new List<string>();
             currentTask = "none";
+            taskInfo = "no current task";
             addTasks(initTasks);
         }
 
@@ -72,6 +76,15 @@
                 }
             }
             return deleted;
+        }
+        public string setTaskInfo(string newTaskInfo)
+        {
+            taskInfo = newTaskInfo;
+            return taskInfo;
+        }
+        public string getTaskInfo()
+        {
+            return taskInfo;
         }
     }
 }
