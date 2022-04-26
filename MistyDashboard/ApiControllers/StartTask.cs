@@ -39,7 +39,7 @@ namespace MistyDashboard.ApiControllers
                 string botUrl = "http://" + bot.getIp() + "/api/skills/start" + "?skill=" + uniqueId;
                 string myJson = "{\"Skill\": \"" + uniqueId + "\",\"method\":null}";
                 var response = client.PostAsync(botUrl, new StringContent(myJson, Encoding.UTF8, "application/json")).Result;
-                returnVal = response.ToString();
+                //returnVal = response.ToString();
             }
 
             

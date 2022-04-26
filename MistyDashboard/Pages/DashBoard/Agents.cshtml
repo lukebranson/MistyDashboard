@@ -21,7 +21,7 @@
                     </span>
                 </div>
                 <h1 class="mb-3">Add Robot</h1>
-                <p class = "mb-4">Luke help me, I do not know what to put here but it makes the modal look better.</p>
+                <p class = "mb-4">Enter the IP address of the robot and give it a name! Any name is valid as long as it hasn't been taken before.</p>
                 <form>
                     <div class="row pb-4">
                         <div class="col col-12">
@@ -56,8 +56,17 @@
                  Connected Misty's
             </h1>
         </div>
+        @if(!robots.Any<ConnectedRobot>())
+        {
+            <div style="width:100%; margin-top:20px;margin-bottom:20px;">
+                <div  style="width:100%;text-align:center;">
+                    no robots connected... Click "Add Robot" to get started!
+                </div>
+            </div>
+        }
         <div class="col-12">
             <div class="connected-bot-table">
+                
                 @foreach(var bot in robots)
                 {
                     <div class="connected-bot-info container-fluid">
