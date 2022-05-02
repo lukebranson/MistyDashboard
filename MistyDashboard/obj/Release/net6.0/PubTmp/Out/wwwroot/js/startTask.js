@@ -11,6 +11,7 @@
             console.log("result: " + response);
             if (response == "success") {
                 console.log(response);
+                location.reload();
             }
             else {
                 console.log("api failed");

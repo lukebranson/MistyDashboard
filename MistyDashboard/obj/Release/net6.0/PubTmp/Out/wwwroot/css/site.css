@@ -169,6 +169,15 @@ html {
     flex-direction: column;
 }
 
+.space {
+    padding-top: 20px;
+}
+
+.space-down {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .hr-line {
     width: 60%;
     margin: auto;
@@ -228,6 +237,21 @@ html {
     }
 }
 
+/* Welcome part of About page */
+.welcome-Text {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+/* White box for task selector*/
+.about-welcome-panel {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 16px;
+}
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to {

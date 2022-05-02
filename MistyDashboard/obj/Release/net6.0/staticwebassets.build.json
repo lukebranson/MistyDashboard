@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2grHLPet6ZWtecSskxz/OsCwapy5/ER5m0cWkKOI9ps=",
+  "Hash": "OJ36Ij9MXtxcbL8j+wrgCIY2y+62u23nDU/rMbOcGlE=",
   "Source": "MistyDashboard",
   "BasePath": "_content/MistyDashboard",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MistyDashboard\\wwwroot",
       "Source": "MistyDashboard",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\bundle\\MistyDashboard.styles.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\bundle\\MistyDashboard.styles.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "MistyDashboard.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\bundle\\MistyDashboard.styles.css"
+      "OriginalItemSpec": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\bundle\\MistyDashboard.styles.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\MistyDashboard.bundle.scp.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\MistyDashboard.bundle.scp.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "MistyDashboard.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\MistyDashboard.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\MistyDashboard.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\css\\site.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\favicon.ico",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\ezgif.com-gif-maker.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\ezgif.com-gif-maker.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/ezgif.com-gif-maker.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ezgif.com-gif-maker.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\Github.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\Github.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/Github.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Github.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\icon\\favicon.ico",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icon\\favicon.ico",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/icon/favicon.ico",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\icon\\x-symbol.svg",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icon\\x-symbol.svg",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/icon/x-symbol.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon\\x-symbol.svg"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\icons8-face-scan-48.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icons8-face-scan-48.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/icons8-face-scan-48.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-face-scan-48.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\icons8-language-48.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icons8-language-48.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/icons8-language-48.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-language-48.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\icons8-online-support-48.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icons8-online-support-48.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/icons8-online-support-48.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-online-support-48.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\icons8-wall-mount-camera-48.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icons8-wall-mount-camera-48.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/icons8-wall-mount-camera-48.png",
       "AssetKind": "All",
@@ -221,12 +221,12 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-wall-mount-camera-48.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\mistyIP.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\mistyIP.PNG",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
-      "RelativePath": "img/mistyIP.png",
+      "RelativePath": "img/mistyIP.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\mistyIP.png"
+      "OriginalItemSpec": "wwwroot\\img\\mistyIP.PNG"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\img\\mistyName.png",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\mistyName.png",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "img/mistyName.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mistyName.png"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\addRobotFromForm.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\addRobotFromForm.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/addRobotFromForm.js",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\js\\addRobotFromForm.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\deleteRobot.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\deleteRobot.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/deleteRobot.js",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\js\\deleteRobot.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\endTask.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\endTask.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/endTask.js",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\js\\endTask.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\faqFunctionality.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\faqFunctionality.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/faqFunctionality.js",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\js\\faqFunctionality.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\mistySkillStarter.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\mistySkillStarter.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/mistySkillStarter.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\mistySkillStarter.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\site.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\js\\startTask.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\js\\startTask.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "js/startTask.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\js\\startTask.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\MistyII.webp",
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\MistyII.webp",
       "SourceId": "MistyDashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fxkai\\source\\repos\\MistyDashboard\\help\\MistyDashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
       "BasePath": "_content/MistyDashboard",
       "RelativePath": "MistyII.webp",
       "AssetKind": "All",

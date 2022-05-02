@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uLUdkZXJnoIVj4QZhZLpSYHDi2FEkbVvyDxv7s20BKM=",
+  "Hash": "B11J/HrLLjPYjQxOVx7fJU4kNlRwwX1/4fFPZKIA994=",
   "Source": "MistyDashboard",
   "BasePath": "_content/MistyDashboard",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ezgif.com-gif-maker.png"
+    },
+    {
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\Github.png",
+      "SourceId": "MistyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
+      "BasePath": "_content/MistyDashboard",
+      "RelativePath": "img/Github.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Github.png"
     },
     {
       "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icon\\favicon.ico",
