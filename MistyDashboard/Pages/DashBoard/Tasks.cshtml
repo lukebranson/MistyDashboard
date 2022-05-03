@@ -45,9 +45,18 @@
         <div class="col-12">
             <div class="tasks-info-panel">
                 <div class="tasks-selector-padding">
-                    <p>
-                        no task running...
-                    </p>
+                    @if (singleState.getCurrentTask() == "none")
+                    {
+                        <p> 
+                            no task running...
+                        </p>
+                    }
+                    else
+                    {
+                        <p> 
+                            Current Task: @(singleState.getCurrentTask()) 
+                        </p>
+                    }
                 </div>
             </div>
         </div>

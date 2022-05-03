@@ -29,7 +29,7 @@ namespace MistyDashboard.ApiControllers
         public IActionResult Get([FromQuery]string name,[FromQuery]string ip)
         {
             //returns early to make this task impossible. if you would like to perform this api call, comment out the next line
-            return Ok("debug additions are currently disabled");
+            //return Ok("debug additions are currently disabled");
             //create the new bot and add it
             ConnectedRobot newBot = new ConnectedRobot(name,ip);
             _appState.addBot(newBot);

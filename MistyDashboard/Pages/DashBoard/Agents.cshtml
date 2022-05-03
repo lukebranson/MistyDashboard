@@ -75,7 +75,12 @@
                             <div class="bot-info-section bot-ip col-3">@(bot.ipAddress)</div>
                             <div class="col-6 bot-control-section">
                                 <div class="bot-controls">
-                                    <img src="~/img/icon/x-symbol.svg" class="remove-bot-icon" onclick="deleteBot('@(bot.name)')"/>
+                                    <a class="bot-button-wrapper" href="http://@(bot.getIp())">
+                                        <img src="~/img/icon/pencil-square.svg" class="remove-bot-icon"/>
+                                    </a>
+                                    <a class="bot-button-wrapper">
+                                        <img src="~/img/icon/x-symbol.svg" class="remove-bot-icon" onclick="deleteBot('@(bot.name)')"/>
+                                    </a>         
                                 </div>
                             </div>
                         </div>
