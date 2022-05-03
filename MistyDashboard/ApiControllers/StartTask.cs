@@ -32,14 +32,22 @@ namespace MistyDashboard.ApiControllers
             {
                 return Ok("noRobots");
             }
-
+            List<string> failedBots = new List<string>();
             foreach (var bot in allBots)
             {
-                string uniqueId = bot.getTasks()[taskName];
-                string botUrl = "http://" + bot.getIp() + "/api/skills/start" + "?skill=" + uniqueId;
-                string myJson = "{\"Skill\": \"" + uniqueId + "\",\"method\":null}";
-                var response = client.PostAsync(botUrl, new StringContent(myJson, Encoding.UTF8, "application/json")).Result;
-                //returnVal = response.ToString();
+                try
+                {
+                    string uniqueId = bot.getTasks()[taskName];
+                    string botUrl = "http://" + bot.getIp() + "/api/skills/start" + "?skill=" + uniqueId;
+                    string myJson = "{\"Skill\": \"" + uniqueId + "\",\"method\":null}";
+                    var response = client.PostAsync(botUrl, new StringContent(myJson, Encoding.UTF8, "application/json")).Result;
+                    //returnVal = response.ToString();
+                }
+                catch(Exception ex)
+                {
+                    failedBots.Add(bot.getName());
+                }
+
             }
 
             _appState.setTaskInfo("task init");
