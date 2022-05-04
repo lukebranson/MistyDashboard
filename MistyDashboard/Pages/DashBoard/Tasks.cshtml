@@ -8,6 +8,7 @@
 
 <div class="container-fluid">
     <div class="row">
+        <!--task running tools-->
         <div class="col-12 mb-2">
             <h1>
                  Run Tasks
@@ -16,11 +17,13 @@
         <div class="col-12 mb-3">
             <div class="tasks-selector-panel">
                 <div class="tasks-selector-padding"> 
+                    <!--display the current task-->
                     <p> 
                         Current Task: @(singleState.getCurrentTask()) 
                     </p>
                     <label for="TaskSelection"> Choose a task: </label>
                     <select name="TaskSelection" id="TaskSelection">
+                        <!--for each task that exists, add it to the dropdown menu-->
                         @foreach(string taskName in singleState.getTasks())
                         {
                             <option value="@(taskName)">@(taskName)</option>
@@ -37,6 +40,7 @@
                 </div>
             </div>
         </div>
+        <!--task running info-->
         <div class="col-12 mb-2">
             <h1>
                  Task Info
@@ -45,6 +49,7 @@
         <div class="col-12">
             <div class="tasks-info-panel">
                 <div class="tasks-selector-padding">
+                    <!--let the user know if no task is running-->
                     @if (singleState.getCurrentTask() == "none")
                     {
                         <p> 

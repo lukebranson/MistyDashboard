@@ -6,7 +6,7 @@
     ViewData["Title"] = "Agents";
     List<ConnectedRobot> robots = singleState.getBots();
 }
-
+<!--Add Robot Modal-->
 <div class="modal fade " id="add-robot-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content rounded-4">
@@ -47,8 +47,10 @@
     </div>
   </div>
 </div>
+<!--Script import for robot additions-->
 <script src="~/js/addRobotFromForm.js" ></script>
 
+<!--robot listing-->
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 mb-3">
@@ -56,6 +58,7 @@
                  Connected Misty's
             </h1>
         </div>
+        <!--if there are no connected robots, display a message-->
         @if(!robots.Any<ConnectedRobot>())
         {
             <div style="width:100%; margin-top:20px;margin-bottom:20px;">
@@ -66,7 +69,7 @@
         }
         <div class="col-12">
             <div class="connected-bot-table">
-                
+                <!--for each robot, add the required info and butons-->
                 @foreach(var bot in robots)
                 {
                     <div class="connected-bot-info container-fluid">

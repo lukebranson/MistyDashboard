@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<!--
+    Layout for all pages of the site
+-->
+
+<!DOCTYPE html>
 <html lang="en" style="overflow: hidden;">
 <head>
     <meta charset="utf-8" />
@@ -9,7 +13,9 @@
     <link rel="stylesheet" href="~/MistyDashboard.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <!--container for page body-->
     <div class="page-container">
+        <!--navigation-->
         <div class="sidenav">
           <a runat="server" href="~/" class="header">MISTY DASHBOARD</a>
           <a runat="server" href="~/Dashboard/Agents" class="@((string)ViewData["Title"]=="Agents" ? "navlink-active" : "")">
@@ -48,7 +54,7 @@
         </div>
     </div>
     
-
+    <!--script imports-->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
