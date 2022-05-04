@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B11J/HrLLjPYjQxOVx7fJU4kNlRwwX1/4fFPZKIA994=",
+  "Hash": "Gh0jEaG/2E/FvpCn7jdme1rq0pfTsr8lhFajkzUswks=",
   "Source": "MistyDashboard",
   "BasePath": "_content/MistyDashboard",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icon\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icon\\pencil-square.svg",
+      "SourceId": "MistyDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\",
+      "BasePath": "_content/MistyDashboard",
+      "RelativePath": "img/icon/pencil-square.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon\\pencil-square.svg"
     },
     {
       "Identity": "C:\\Users\\lukea\\source\\repos\\MistyDashboard\\MistyDashboard\\wwwroot\\img\\icon\\x-symbol.svg",
