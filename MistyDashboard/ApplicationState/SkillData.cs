@@ -1,4 +1,13 @@
-﻿using Newtonsoft.Json;
+﻿/**************************************************************************
+ * Class: Deleteot                                                        *
+ * Usage: API controller that deletes robots from the application         *
+ *                                                                        *
+ **************************************************************************/
+
+
+//includes
+
+using Newtonsoft.Json;
 
 namespace MistyDashboard.ApplicationState
 {

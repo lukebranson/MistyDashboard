@@ -1,5 +1,5 @@
 ﻿/**************************************************************************
- * Class: Deleteot                                                        *
+ * Class: DeleteRobot                                                        *
  * Usage: API controller that deletes robots from the application         *
  *                                                                        *
  **************************************************************************/
